@@ -1,70 +1,57 @@
-# Getting Started with Create React App
+# Piedra, Papel y Tijera en React
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Este es un proyecto que recrea el tipico juego de "Piedra Papel o Tijera" en una pagina web.
 
-## Available Scripts
+---
+## Comenzando 🚀
 
-In the project directory, you can run:
+Este proyecto se realizó como Trabajo Practico N°1 del Proyecto "Argentina Programa 4.0", en el curso de "Programación Web Front-End" segunda parte "Paginas Web con Componentes Dinamicos" de la Universidad Nacional de Cordoba a travez de la Facultad de Matematica, Astronomia, Fisica y Computacion. El docente a cargo : profesor Ignacio Moretti y ayudante de practicas Nehuen Aramburu.
 
-### `npm start`
+---
+### Pre-requisitos 📋
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+No requiere ningun tipo de instalación ya que todo corre sobre una pagina de protocolo de html5. Solo se necesita contar con algun navegador web que pueda reproducir los archivos.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+---
+### Metodologia de juego
 
-### `npm test`
+En su pagina unicial se muestra un mensaje de bienvenida y una breve aclaracion sobre que el juego se define al mejor de 5 partidas. Seguido se encuentra un input para poder ingresar el nombre con su boton "OK" para confirmarlo.Luego de presionarlo, se muestra otra pantalla donde se encuentra el tablero con el nombre del usuario y la PC que marcaran los puntos ganados en cada ronda. Se muestran los tres botones invitando a seleccionar una de las 3, mostrando automaticamente los resultados de la ronda. Se actualizan los valores del tablero hasta que alguno llegue a 3 puntos, para mostrar otra pantalla con el mensaje de victoria o derrota segun corresponda. Por ultimo se habilita el boton de "Volver a jugar" para volver a la pantalla principal.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+---
+## Pruebas de errores 
 
-### `npm run build`
+A través de la interfaz del usuario se podran enviar mensajes de advertencias o errores.
+- Si el usuario no ingresó ningun nombre o solo ingreso espacio en blanco y presiona el boton "OK" se envia el siguiente mensaje por consola : ***"Por favor ingrese su nombre y luego presione OK"***
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+---
+### Ejecutando prueba. ⚙️
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Prueba de una partida.
+```
+Ronda 1 = Usuario : Piedra, PC : Piedra, Resultado : Empate.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Ronda 2 = Usuario : Papel, PC : Tijera, Resultado : ganador PC.
 
-### `npm run eject`
+Ronda 3 = Usuario : Tijera, PC : Papel,  Resultado : ganador Usuario.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Ronda 4 = Usuario : Piedra, PC : Piedra, Resultado : Empate.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Ronda 5 = Usuario : Piedra, PC : Papel,  Resultado : ganador PC.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Ronda 6 = Usuario : Piedra, PC : Tijera, Resultado : ganador Usuario.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Ronda 7 = Usuario : Papel, PC : Piedra,  Resultado : ganador Usuario.
 
-## Learn More
+Ganador Final Usuario.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+--- 
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Construido con 🛠️
 
-### Code Splitting
+Editado con Visual Studio Code, realizado con React.js y con Styled Component para el estilo de la pagina.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-### Analyzing the Bundle Size
+## Autores ✒️
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- Autor : Agustin Leonardo Perez
+- Colaboradores : Este fue un trabajo de varios dias de investigacion y pruebas, donde todas las dudas o problemas que fueron surgiendo se trabajaron tanto en clase con el profesor, como en las prácticas con el ayudante de prácticas y mis compañeros de cursada.
